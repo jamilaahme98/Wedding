@@ -1,0 +1,566 @@
+@media (max-width: 576px)  { 
+    .navbar{
+        overflow: hidden;
+        padding-top: 20px; 
+    }
+    .navbar .logo{
+        float: none;
+        width: 15%;
+        margin: auto;
+        padding-left: 0px; 
+    }
+    .navbar .logo img{
+        width: 100%;
+    }
+    .navbar .nav{
+        float: none;
+        width: 100%;
+    }
+    .nav .list{
+        margin-right: 30px;
+    }
+    .navbar .nav .list-item a{
+        font-size: 10px;
+        margin-right: 15px;
+    }
+    .navbar .nav .list button{
+        font-size: 8px;
+        padding: 3px 6px;
+    }
+    .header .header-content h1{
+        font-size: 30px;
+    }
+    .header .header-content p{
+        margin-bottom: 80px;
+        font-size: 15px;
+    }
+    .items{
+        width: 100%;
+        height: 1000px;
+        overflow: hidden;
+    }
+    .item-member{
+        float: none;
+        width: 100%;
+    }
+    .detalies{
+        padding-top: 0px;  
+        box-sizing: border-box;
+    }
+    .special-day{
+        float: right;
+        width: 100%;
+    }
+    .special-day .special-des{
+        float: none;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+   .special-day .special-img{
+        float: none;
+        background-size: cover;
+        width: 100%;
+        background-position: center;
+    }
+    .perfect-place{
+        width: 100%;
+    }
+    .perfect-place .perfect-img{
+        float: none;
+        width: 100%;
+        box-sizing: border-box;
+        background-position: center;
+    }
+    .perfect-place .perfect-img img{
+        width: 100%;
+        height: 100%;
+        margin-top: -3px;
+    }
+    .perfect-place .perfect-des{
+        float: none;
+        width: 100%;
+        padding-bottom: 30px; 
+        background-color: #fffbfb;
+    }
+    .perfect-moment{
+        overflow: hidden; 
+        width: 100%; 
+    }
+    .perfect-moment .perfect-des{
+        float: none;
+        width: 100%;
+    }
+    .perfect-moment .perfect-img{
+        float: none;
+        width: 100%;
+    }
+    .perfect-moment .perfect-img img{
+        width: 100%;
+    }
+    .numbers{
+        background-color: #d68989;
+        padding: 50px 0;
+        width: 100%;
+        overflow: hidden; 
+    }
+     .numbers .numbers-item{
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .offer{
+        margin-bottom: 50px;
+        text-align: center;
+        padding-top: 30px;
+        overflow: hidden;
+    }
+    #aa{
+        margin-bottom: 10px;
+        padding-top: 10px;
+        font-size: 40px;
+    }
+    .offer h2{
+        font-family: "Alegreya";
+        font-size: 30px;
+        color: #303030;
+        margin-bottom: 30px;
+        padding-top: 10px;
+    }
+    .offer .a{
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+    .offer-content .item{
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .our-weddings{
+        margin-bottom: 30px;
+        overflow: hidden;
+        text-align: center;
+        padding-top: 30px;
+        width: 100%;
+        height: 100%;
+    }
+    .our-weddings .b , .News .b{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .our-weddings .pic1 , .News .pic2{
+        width: 100%;
+        float: none;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-bottom: 10px;
+    }
+    .our-weddings .btn{
+       margin-top:30px;
+        text-align: center;
+    
+    }
+    .our-weddings .btn .btn-con{
+        border-radius: 3px;
+        border: 2px solid transparent;
+        color: #686868;
+        font-size: 15px;
+        padding: 5px 8px;
+        width: 30px;
+    }
+    .pic2-des .item2-titl{
+        padding: 22px; 
+        background: #fff;
+        border: 1px solid #efefef;
+        margin-bottom: 10px;
+    }
+    .News .btn{
+        margin-top: 20px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .line{
+        margin-top: 80px;
+    }
+    .location{
+        margin-top: 60px; 
+        overflow: hidden;
+        padding-left: 50px; 
+        height: 650px;
+    }
+    .location .container{ 
+        width: 100%;
+        margin: auto; 
+        overflow: hidden;
+        height: 100%; 
+    }
+    .location-desc{
+       width: 100%;
+       float: none;
+    }
+    .location-desc li{
+        padding-top: 15px;
+    }
+    .location-desc li i{
+     font-size: 18px;
+     padding: 11px 10px;
+     border-radius: 50%;
+     text-align: left;
+    }
+    .location-desc span{
+        font-size: 10px;
+        padding-left: 5px;
+    }
+    .location-map{
+        float: none;
+        height: 650px;
+        width: 600px;
+        margin-top: 10px;
+    }
+    .location-map map{
+        width: 100%; 
+    }
+    .cover{
+        margin-top: 300px;
+
+    }
+    .cover-text .txt{
+        text-align: center;
+        margin-top: 90px;
+    }
+    .footer{
+        padding-top: 50px;
+        color: #797979;
+        overflow: hidden;
+    }
+    .footer .item{
+        float: none;
+        width: 100%;
+        color: #969696;
+    }
+    .footer .footer-second p{
+        width: 100%;
+        float: none;
+        font-size: 18px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .footer .footer-second .icons{
+        text-align: center;
+    }
+    .footer .footer-second .icons i{
+        padding: 15px;
+        border-radius: 100%;
+        margin-right: 10px;
+        padding-bottom: 20px;
+        transition: all 1s;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px){ 
+    .navbar{
+        overflow: hidden;
+        padding-top: 20px; 
+    }
+    .navbar .logo{
+        float: none;
+        width: 20%;
+        margin-bottom: 10px;
+        margin: auto;
+    }
+    .navbar .logo img{
+        width: 100%;
+    }
+    .navbar .nav{
+        float: none;
+        width: 90%;
+    }
+    .nav .list{
+        margin:auto;
+        text-align: center;
+        padding-left: 0;
+    }
+    .navbar .nav .list-item a{
+        font-size: 20px;
+        margin-right: 15px;
+    }
+    .navbar .nav .list button{
+        font-size: 10px;
+        padding: 3px 6px;
+    }
+    .header .header-content{
+        padding-top: 80px;
+        margin-bottom: 30px; 
+     }
+    .header .header-content h1{
+        font-size: 80px;
+        margin-bottom: 80px;
+        padding-top: 60px;
+    }
+    .header .header-content p{
+        margin-bottom: 90px;
+        font-size: 30px;
+    }
+    .navbar .nav .list button{
+        margin-bottom: 20px;
+        font-size: 20px;
+        padding: 10px 15px;
+        line-height: 30px;
+     }
+    .items{
+        width: 100%;
+        height: 1000px;
+        overflow: hidden;
+    }
+    .item-member{
+        float: none;
+        width: 100%;
+    }
+    .item-member i{
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    h2{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .item-member p{
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 400;
+    }
+    .detalies{
+        padding-top: 30px;  
+        box-sizing: border-box;
+    }
+    .special-day{
+        float: right;
+        width: 100%;
+    }
+    .special-day .special-des{
+        float: none;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .special-day .special-des p{
+        font-size: 25px;
+        font-weight: 400;
+    }
+   .special-day .special-img{
+        float: none;
+        background-size: cover;
+        width: 100%;
+        background-position: center;
+    }
+    .perfect-place{
+        width: 100%;
+    }
+    .perfect-place .perfect-img{
+        float: none;
+        width: 100%;
+        box-sizing: border-box;
+        background-position: center;
+    }
+    .perfect-place .perfect-img img{
+        width: 100%;
+        height: 100%;
+        margin-top: -3px;
+    }
+    .perfect-place .perfect-des{
+        float: none;
+        width: 100%;
+        padding-bottom: 30px; 
+        background-color: #fffbfb;
+    }
+    .perfect-place .perfect-des p{
+       font-size: 25px;
+    }
+    .perfect-moment{
+        overflow: hidden; 
+        width: 100%; 
+    }
+    .perfect-moment .perfect-des{
+        float: none;
+        width: 100%;
+    }
+    .perfect-moment .perfect-des p{
+        font-size: 25px;
+    }
+    .perfect-moment .perfect-img{
+        float: none;
+        width: 100%;
+    }
+    .perfect-moment .perfect-img img{
+        width: 100%;
+    }
+    .numbers{
+        padding: 50px 0;
+        width: 100%;
+        overflow: hidden; 
+    }
+     .numbers .numbers-item{
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .offer{
+        margin-bottom: 50px;
+        text-align: center;
+        padding-top: 30px;
+        overflow: hidden;
+    }
+    #aa{
+        margin-bottom: 10px;
+        padding-top: 10px;
+        font-size: 40px;
+    }
+    .offer h2{
+        font-family: "Alegreya";
+        font-size: 30px;
+        margin-bottom: 30px;
+        padding-top: 10px;
+    }
+    .offer .a{
+        font-size: 25px;
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+    .offer-content .item{
+        float: none;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .our-weddings{
+        margin-bottom: 30px;
+        overflow: hidden;
+        text-align: center;
+        padding-top: 30px;
+        width: 100%;
+        height: 100%;
+    }
+    .our-weddings .b , .News .b{
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+    .our-weddings .pic1 , .News .pic2{
+        width: 100%;
+        float: none;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-bottom: 18px;
+    }
+    .our-weddings .btn{
+       margin-top:30px;
+        text-align: center;
+    }
+    .our-weddings .btn .btn-con{
+        border-radius: 3px;
+        border: 2px solid transparent;
+        color: #686868;
+        font-size: 15px;
+        padding: 5px 8px;
+        width: 30px;
+    }
+    .pic2-des .item2-titl{
+        padding: 18px; 
+        background: #fff;
+        border: 1px solid #efefef;
+        margin-bottom: 10px;
+    }
+    .pic2-des .item2-titl{
+        padding: 22px; 
+        background: #fff;
+        border: 1px solid #efefef;
+        font-size: 15px;
+        padding: 18px 0px;
+        border-top: 0 ;
+    }
+    .News .btn{
+        margin-top: 20px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .line{
+        margin-top: 80px;
+    }
+    .location{
+        margin-top: 60px; 
+        background-color: #fffbfb;
+        overflow: hidden;
+        padding-left: 50px; 
+        height: 650px;
+    }
+    .location .container{ 
+        width: 100%;
+        margin: auto; 
+        overflow: hidden;
+        height: 100%; 
+    }
+    .location-desc{
+       width: 100%;
+       float: none;
+    }
+    .location-desc li{
+        padding-top: 15px;
+    }
+    .location-desc li i{
+     font-size: 20px;
+     padding: 11px 10px;
+     border-radius: 50%;
+     text-align: left;
+    }
+    .location-desc span{
+        font-size: 10px;
+        padding-left: 5px;
+    }
+    .location-map{
+        float: none;
+        height: 650px;
+        width: 600px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .location-map map{
+        width: 100%; 
+    }
+    .cover{
+        margin-top: 300px;
+     }
+    .cover-text .txt{
+        text-align: center;
+        margin-top: 90px;
+    }
+    .footer{
+        padding-top: 50px;
+        color: #797979;
+        overflow: hidden;
+    }
+    .footer .item{
+        float: none;
+        width: 100%;
+        color: #969696;
+    }
+    .footer .footer-second p{
+        width: 100%;
+        float: none;
+        font-size: 18px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .footer .footer-second .icons{
+        text-align: center;
+    }
+    .footer .footer-second .icons i{
+        padding: 15px;
+        border-radius: 100%;
+        margin-right: 10px;
+        padding-bottom: 20px;
+        transition: all 1s;
+    }
+}
+
+
+
+

@@ -1,0 +1,978 @@
+/* puplic */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width:100%;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clrfix{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+/* start header */
+.header{
+    background-image: url(../img/full-1.jpg);
+    text-align: center;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.overlay {
+    background-color: rgba(0,0,0,-.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.overlay .navbar{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+.navbar{
+    overflow: hidden;
+    padding-top: 20px; 
+    position: fixed;
+}
+.navbar .logo{
+    float: left;
+    width: 10%;
+    padding-left: 30px;
+}
+.navbar .logo img{
+    width: 100%;
+}
+.navbar .nav{
+    float: right;
+    width: 50%;
+}
+.nav .list{
+    float:right;
+    margin-right: 20px;
+}
+.nav .list .list-item{
+    display: inline-block;
+    width: fit-content;
+}
+.navbar .nav .list-item a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 30px;
+}
+.navbar .nav .list button{
+   color: black;
+   border-radius: 5px;
+   background-color: white;
+   border: 2px solid white;
+   font-size: 16px;
+   padding: 10px 15px;
+   line-height: 30px;
+}
+.navbar .nav .list button:hover{
+    background-color: #d68989;
+    color: white;
+    border: 2px solid #d68989;
+    cursor: pointer;
+}
+.header .header-content{
+   padding-top: 80px; 
+}
+.header .header-content h1{
+    font-size: 78px;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 60px; 
+    margin-bottom: 50px; 
+}
+.header .header-content p{
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.header .header-content .header-btn{
+    margin-bottom: 50px;
+}
+.header .header-btn a{
+  background-color: white;
+ padding: 10px 20px;
+ border-radius: 5px;
+ border: 2px solid white;
+}
+.header .header-btn .lear-btn{
+    background-color: transparent;
+    color: white;
+}
+.header .header-btn .lear-btn:hover{
+    background-color: white;
+    color: black;
+}
+.header .header-btn .about-btn{
+    background-color: white;
+    color: black;
+}
+.header .header-btn .about-btn:hover{
+    opacity: .8;
+}
+/* end header */
+
+/*start items section*/
+.items{
+    text-align: center;
+    width: 100%;
+    height: 286px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+/* .items-members{
+ overflow: hidden;
+ display: inline-block;
+
+} */
+.item-member{
+    float: left;
+    width: 25%;
+}
+.item-member i{
+    background-color: rgb(214, 137, 137);
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+    line-height: 88px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+h2{
+    text-align: center;
+    color:rgb(48, 48, 48);
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#aaa{
+    color:white;
+    font-size: 30px;
+}
+.item-member p{
+    color: #888;
+    font-family: "Alegreya Sans";
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+}
+/*end items section*/
+
+/*start detalies section*/
+.detalies{
+    padding-top: 0px;  
+    background-color: #fffbfb; 
+    /* overflow: hidden; */
+    /* margin-top: 0px; */
+    /* margin-right: -15px; */
+    /* margin-right: -15px; */
+    box-sizing: border-box;
+}
+/* start special-day*/
+.special-day{
+    float: right;
+    background-color: #fffbfb;
+    width: 100%;
+    /* overflow: hidden; */
+    /* height: 100%; */
+}
+.special-day .special-des{
+    float: left;
+    width: 40%;
+    padding-bottom: 30px;
+}
+.special-day .special-des h2{
+    color: #303030;
+    font-size: 28px;
+    font-family: "Alegreya";
+    font-weight: 400;
+    text-align: left;
+    text-transform: capitalize;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+
+.special-day .special-des h3{
+    font-family: "Dancing Script";
+    font-size: 26px;
+    font-weight: 400;
+    color: #d68989;
+    margin-left: 20px;
+    text-align: left;
+}
+.special-day .special-des p{
+    font-family: "Alegreya Sans";
+    font-size: 20px;
+    font-weight: 400;
+    color: #686868;
+    margin-left: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+.special-day .special-des a{
+    color: white;
+    background-color:#d68989 ;
+    padding: 11px 20px;
+    font-family: "Alegreya Sans";
+    border-color: #d68989;
+    border-radius: 7px 7px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.special-day .special-img{
+    float: right;
+    background-size: cover;
+    width: 50%;
+    background-position: center;
+    /* box-sizing: border-box; */
+}
+.special-day .special-img img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
+    /* box-sizing: border-box; */
+}
+/* end special-day*/
+/* start perfect-place*/
+.perfect-place{
+    /* overflow: hidden; */
+    width: 100%;
+
+}
+.perfect-place .perfect-img{
+    float: left;
+    /* background-size: cover; */
+    width: 50%;
+    box-sizing: border-box;
+    background-position: center;
+}
+.perfect-place .perfect-img img{
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+
+}
+.perfect-place .perfect-des{
+    float: right;
+    width: 45%;
+    padding-bottom: 30px; 
+    background-color: #fffbfb;
+}
+.perfect-place .perfect-des h2{
+    color: #303030;
+    font-size: 28px;
+    font-family: "Alegreya";
+    font-weight: 400;
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 60px;
+}
+.perfect-place .perfect-des h3{
+    font-family: "Dancing Script";
+    font-size: 26px;
+    font-weight: 400;
+    color: #d68989;
+    margin-left: 20px;
+    text-align: left;
+}
+.perfect-place .perfect-des p{
+    font-family: "Alegreya Sans";
+    font-size: 20px;
+    font-weight: 400;
+    color: #686868;
+    margin-left: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+.perfect-place .perfect-des a{
+    color: white;
+    background-color:#d68989 ;
+    padding: 11px 20px;
+    font-family: "Alegreya Sans";
+    border-color: #d68989;
+    border-radius: 7px 7px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+/* end perfect-place*/
+/* start perfect-moment*/
+.perfect-moment{
+    overflow: hidden; 
+    /* height:100%;  */
+    width: 100%; 
+}
+.perfect-moment .perfect-des{
+    float: left;
+    width: 40%;
+    text-align: left;
+    padding-bottom: 30px; 
+}
+.perfect-moment .perfect-des h2{
+    color: #303030;
+    font-size: 28px;
+    font-family: "Alegreya";
+    font-weight: 400;
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 60px; 
+}
+.perfect-moment .perfect-des h3{
+    font-family: "Dancing Script";
+    font-size: 26px;
+    font-weight: 400;
+    color: #d68989;
+    margin-left: 20px;
+    text-align: left;
+}
+.perfect-moment .perfect-des p{
+    font-family: "Alegreya Sans";
+    font-size: 20px;
+    font-weight: 400;
+    color: #686868;
+    margin-left: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+.perfect-moment .perfect-des a{
+    color: white;
+    background-color:#d68989 ;
+    padding: 11px 20px;
+    font-family: "Alegreya Sans";
+    border-color: #d68989;
+    border-radius: 7px 7px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.perfect-moment .perfect-img{
+    float: right;
+    /* background-size: cover; */
+    width: 50%;
+    /* background-position: center; */
+}
+.perfect-moment .perfect-img img{
+    width: 100%;
+    /* height: 100%; */
+}
+/* end perfect-moment*/
+/*end detalies section*/
+
+/*start numbers section*/
+.numbers{
+   background-color: #d68989;
+   padding: 50px 0;
+   width: 100%;
+   overflow: hidden; 
+}
+.numbers .numbers-item{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.numbers-item i{
+    font-size: 30px;
+    color: rgba(255,255,255,0.8);
+}
+.numbers-item .numbers-tit{
+    margin: 10px 0;
+    color: white;
+    font-size: 52px;
+}
+.numbers-item p{
+    color:rgba(255, 255, 255, 0.8);
+    font-size:20px ;
+}
+/*end numbers section*/
+.offer{
+  margin-bottom: 50px;
+  text-align: center;
+  padding-top: 30px;
+}
+#aa{
+    color: #d68989;
+    font-size: 40px;
+}
+.offer h2{
+    font-family: "Alegreya";
+    font-size: 30px;
+    color: #303030;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+.offer .a{
+    color: #d68989;
+    font-size: 26px;
+    font-family: "Dancing Script";
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.offer-content .item{
+    float: left;
+    width: 33.33%;
+}
+.offer-content img{
+    width: 90%;
+}
+.offer-content h3{
+ font-size: 22px;
+ padding-top: 10px;
+ text-align: center;
+ font-family: "Alegreya";
+ color: #303030;
+ font-family: 400;
+ text-transform: capitalize;
+}
+.offer-content p{
+    font-size: 18px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #686868;
+    font-family: 400;
+    margin-bottom: 20px;
+}
+.offer a{
+ border-radius: 0;
+ color: #d68989;
+ cursor: pointer;
+ font-size:18px ;
+ font-family: "Alegreya Sans";
+ font-weight: 400;
+}
+.offer a:hover{
+    color:#686868;
+}
+/*end offer section*/
+/*start our*/
+.our-weddings{
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 30px;
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+}
+.our-weddings .container{
+    height: 700px;
+}
+#aa{
+    color: #d68989;
+    font-size: 40px;
+    text-align: center;
+}
+.our-weddings h2 ,.News h2{
+    font-family: "Alegreya";
+    font-size: 30px;
+    color: rgb(48, 48, 48);
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+.our-weddings .b , .News .b{
+    color: #d68989;
+    font-size: 26px;
+    font-family: "Dancing Script";
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.our-weddings .pic1 , .News .pic2{
+    width: 30%;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.our-weddings .pic1 img, .News .pic2 img{
+    width: 100%;
+}
+.pic1-des{
+    padding: 22px;
+    background: #fff;
+    border: 1px solid #efefef;
+    position: relative;
+    font-size: 15px;
+    border-top: 0 ;
+}
+.item-titl ,.item2-titl{
+    height: 50px;
+}
+.item-titl .item-title,.item2-titl .item2-title{
+ font-size: 19px;
+ font-family: "Alegreya"; 
+ overflow: hidden; 
+ /* display: block;  */
+}
+.item-titl .item-title a{
+    cursor: pointer;
+    color: #303030;
+    float: left;
+    padding-bottom: 10px;
+}
+.item-titl .item-title a:hover{
+    color: #d68989;
+}
+.item-titl .caption-categories{
+    color: #888;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    float: left;
+    font-family: "Alegreya Sans";
+}
+.item-titl .port{
+    /* position: absolute; */
+    /* right: 22px; */
+    /* top: 25px; */
+    float: right;
+    width: 30px;
+    color:#686868;
+    font-size: 15px;
+    text-align: center;
+}
+.item .item-titl .port-cont{
+    display: block;
+    overflow: hidden;
+}
+.item-titl .port .port-cont i{
+    font-size: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.item-titl .port .port-cont span{
+    display: block;
+    color: rgba(0,0,0,0.3);
+    line-height: 40px;
+}
+.our-weddings .btn{
+    margin-top: 30px;
+    text-align: center;
+}
+.our-weddings .btn .btn-con{
+    background-color: #d68989;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    color: #686868;
+    font-size: 15px;
+    padding: 11px 20px;
+    width: 30px;
+}
+.our-weddings .btn .btn-con span{
+    color: white;
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.our-weddings .btn .btn-con i{
+    color: white;
+}
+.pic1-des .por{
+    float: left;
+}
+.line{
+    margin-top: 50px;
+    /* width:100%; */
+}
+/*end our*/
+
+/*start news*/
+.News{
+    text-align: center;
+    margin-top: 30px;
+}
+.News .container{
+    height: 700px;
+}
+.News .pic2 img{
+    width: 100%;
+}
+.pic2-des .item2-titl{
+    padding: 22px; 
+    background: #fff;
+    border: 1px solid #efefef;
+    /* position: relative;  */
+    font-size: 15px;
+    padding: 20px 0px;
+    border-top: 0 ;
+}
+.item2-titl .item2-title a{
+    cursor: pointer;
+    color:  #333;
+    margin-bottom: 10px;
+    float: left;
+    margin-left: 5px;
+    padding-top: 2px;
+    font-size: 18px;
+}
+.item2-titl .item2-title a:hover{
+    color: #d68989;
+}
+
+.item2-titl .por .caption-categories{
+    float: left;
+    margin-left: 5px;
+    font-size: 14px;
+    color:#aaa;
+    margin-bottom: 7px;
+    font-family: "Alegreya Sans";
+}
+.item2-titl{
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding:0;
+    padding: 16px 0px;
+}
+.item2-titl .part2 p{
+    float: left;
+    margin-right: 5px;
+}
+.item2-titl .part2 p{
+    font-size: 17px;
+    margin-left: -3px;
+    color: #686868;
+    margin-bottom: 10px;
+    font-family: "Alegreya Sans";
+}
+.item2-titl .part2 a{
+    color: #686868;
+    float: left;
+    margin-left: 5px;
+    font-size: 17px;
+}
+.item2-titl .part2 a:hover{
+    color: #d68989;
+}
+.item2-titl .part2 a:after{
+    content: "\f178";
+    font-family: FontAwesome;
+    margin-left: 14px;
+    font-size: 20px;
+    margin-top: -2px;
+   padding-bottom: 5px;
+}
+.News .btn{
+    margin-top: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.News .btn .btn-con{
+    background-color: #d68989;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    color: #686868;
+    font-size: 15px;
+    padding: 11px 20px;
+    width: 30px;
+}
+.News .btn .btn-con span{
+    color: white;
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.News .btn .btn-con i{
+    color: white;
+}
+/*end News*/
+/*start text*/
+.text{
+    margin-top: 70px;
+}
+.text .text-cont{
+    padding: 0 5%;
+    text-align: center;
+}
+.text .text-cont p{
+    color: #686868;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Alegreya Sans";
+    font-weight: 400;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+.text .text-part{
+    text-align: center;
+    color: #686868;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Alegreya Sans";
+}
+.text-part .p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+} 
+.text-part .a{
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+} 
+.text .dots{
+    text-align: center;
+    margin: 0 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.dots i{
+    color:#686868;
+}
+.dots i:hover{
+    color:white;
+}
+/*end text*/
+/*start map*/
+.location{
+    margin-top: 60px; 
+    background-color: #fffbfb;
+    padding-left: 100px; 
+    height: 550px;
+    
+}
+.location .container{ 
+    width: 100%;
+    margin: auto; 
+    height: 100%; 
+}
+.location-desc{
+   width: 40%;
+   float: left;
+}
+.location-desc h2{
+  color:#303030;
+   font-size: 32px;
+   font-weight: 400;
+   font-family: "Alegreya";
+   margin-bottom: 25px;
+   text-align: left;
+   margin-top: 40px;
+}
+.location-desc p{
+    font-size: 18px;
+    color: #686868;
+    font-weight: 400;
+    font-family: "Alegreya Sans";
+    width: 79%;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.location-desc li{
+    padding-top: 15px;
+}
+.location-desc li i{
+ background-color: #d68989;
+ color: white;
+ font-size: 18px;
+ padding: 11px 10px;
+ border-radius: 50%;
+ text-align: left;
+}
+.location-desc span{
+    font-family: "Alegreya Sans";
+    color: #686868;
+    font-size: 18px;
+    padding-left: 5px;
+}
+.location-map{
+    float: right;
+    height: 450px;
+    width: 600px;
+    text-align: right;
+}
+.location-map map{
+    width: 100%; 
+    /* height: 100%; */
+  }
+/*end map*/
+/*start cover*/
+.cover{
+    background-image: url('../img/news/cover.jpg');
+    padding: 50px 0px 50px 0px;
+    background-size: cover; 
+    position: relative;
+    height: 422px;
+     
+}
+.cover .cover-text{
+    text-align: center;
+    background-color: #d68989;
+    opacity: .9;
+    padding: 50px 0px 50px 0px;
+    position: absolute;
+    height: 422px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.cover-text .txt{
+    text-align: center;
+    margin-top: 40px;
+}
+.cover-text .txt h2{
+   color: white;
+   font-size: 32px;
+   font-family: Alegreya;
+   font-weight: 400;
+}
+.cover-text .txt p{
+    color: rgba(255,255,255,.82);
+    font-family: "Alegreya Sans";
+    font-size: 20px;
+}
+.cover .btn{
+    margin-top: 30px;
+    text-align: center;
+}
+.cover  .cover-text .btn .btn-con{
+    background-color: transparent;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    color: white;
+    font-size: 15px;
+    padding: 11px 20px;
+    cursor: pointer;
+    width: 30px;
+    border-color: white;
+}
+.cover  .cover-text .btn .btn-con span{
+    color: white;
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.cover  .cover-text .btn .btn-con:hover{
+    background-color: white;
+}
+.cover  .cover-text .btn .btn-con span:hover{
+    color: black;
+}
+/*end cover*/
+/* start footer section*/
+.footer{
+    background-color:#f3f3f3;
+    font-family: "Alegreya Sans";
+    padding-top: 50px;
+    color: #797979;
+}
+.footer .footer-content{
+    overflow: hidden;
+}
+.footer .item{
+   float: left;
+   width: 25%;
+   color: #969696;
+}
+.footer .item h2{
+    color: #555555;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 400;
+    font-family: "Alegreya";
+    margin-bottom: 30px;
+}
+.footer .item p{
+    width: 84%;
+    color: #797979;
+    font-family: "Alegreya Sans";
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.footer .item a{
+    color: #888;
+    margin-bottom: 14px;
+    display: block;
+    transition: color 1s;
+    font-size: 16px;
+}
+.footer .item a:hover{
+    color: #333;
+}
+.footer .item a:before{
+    content: "\f105";
+    font-family: FontAwesome;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.footer .footer-content li{
+    margin-bottom: 20px;
+}
+.footer .footer-content li i{
+    margin-right: 10px;
+}
+.footer .footer-content li p{
+    font-size: 12px;
+}
+.footer .footer-second{
+    background-color: #f3f3f3;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-top: 1px solid #eaeaea;
+}
+.footer .footer-second p{
+    color: #777;
+    font-size: 10px;
+    width: 16%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: "Alegreya Sans";
+    text-align: left;
+}
+.footer .footer-second .icons{
+   text-align: right;
+}
+.footer .footer-second .icons i{
+    background-color: rgba(0,0,0,0.08);
+    color: #535353;
+    padding: 20px;
+    border-radius: 100%;
+    margin-right: 10px;
+    padding-bottom: 20px;
+    transition: all 1s;
+}
+
+.footer .footer-second .icons  .fac i:hover{
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.footer .footer-second .icons .gog i:hover{
+    background-color: red;
+    color: #fff;
+}
+.footer .footer-second .icons .tum i:hover{
+    background-color :#32506d ;
+    color: #fff;
+}
+.footer .footer-second .icons .twi i:hover{
+  background-color: #0275d8;
+  color: #fff;
+}
+/* end footer section*/
+
